@@ -1,4 +1,4 @@
-.container .title{
+.container .title {
     color: #fff;
     font-size: 2.5rem;
     text-align: center;
@@ -19,15 +19,23 @@
 }
 
 .movies-container div {
-    width: 30%;
-    color: #fff;
-    margin-bottom: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #111;
-    padding: 1rem;
+    width: 250px;
+    height: 650px;
+    margin-bottom: 3rem;
+    text-align: center;
+    background-color: #212121;
+    box-shadow: 15px 15px 30px #191919,
+        -15px -15px 30px #292929;
+    transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+        transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 }
+
+.movies-container div:hover {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: scale(1.05);
+}
+
 
 .movies-container div img {
     max-width: 100%;
@@ -36,7 +44,7 @@
 .movies-container div img,
 .movies-container div h2,
 .movies-container div p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .movies-container div svg {

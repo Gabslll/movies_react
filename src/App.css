@@ -1,0 +1,7 @@
+.App {
+    background-image: url(./images/Section3.jpg);
+    background-size: cover;
+    max-width: 100%;
+    width: 1920px;
+    height: 3800px;
+}

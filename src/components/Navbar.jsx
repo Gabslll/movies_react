@@ -25,7 +25,7 @@ const Navbar = () => {
                 <Link to="/"><SiCloudflare /> Cloud</Link>
             </h2>
             <form onSubmit={handleSubmit}>
-                <input 
+                <input className={styles.input}
                     type="text" 
                     placeholder="Busque um filme" 
                     onChange={(e) => setSearch(e.target.value)}
